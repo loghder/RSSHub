@@ -1,13 +1,13 @@
 <!-- 
-如有疑问，请参考 https://github.com/DIYgod/RSSHub/discussions/8002
-Reference: https://github.com/DIYgod/RSSHub/discussions/8002
+如有疑问，请参考 https://docs.rsshub.app/joinus/new-rss/submit-route
+Reference: https://docs.rsshub.app/en/joinus/new-rss/submit-route
 -->
 
-## 该 PR 相关 Issue / Involved issue
+## 该 PR 相关 Issue / Involved Issue
 
 Close #
 
-## 完整路由地址 / Example for the proposed route(s)
+## 路由地址示例 / Example for the Proposed Route(s)
 
 <!--
 请在 `routes` 区域填写以 / 开头的完整路由地址，否则你的 PR 将会被无条件关闭。
@@ -17,18 +17,20 @@ Please include route starts with /, with all required and optional parameters. F
 ```route
 /some/route
 /some/other/route
+/dont/use/this/or/modify/it
+/use/the/fenced/code/block/below
 ```
-如果你的 PR 与路由无关, 请在 route 区域 填写 `NOROUTE`，而不是直接删除 `routes` 区域。否则你的 PR 将会被无条件关闭。
-If your changes are not related to route, please fill in `routes` with `NOROUTE`. Fail to comply will result in your PR being closed.
+如果你的 PR 与路由无关, 请在 `routes` 区域 填写 `NOROUTE`，而不是直接删除 `routes` 区域。否则你的 PR 将会被无条件关闭。
+If your changes are not related to route, please fill in `routes` section with `NOROUTE`. Fail to comply will result in your PR being closed.
 -->
 
 ```routes
 ```
 
-## 新 RSS 检查列表 / New RSS Script Checklist
+## 新 RSS 路由检查表 / New RSS Route Checklist
   
 - [ ] 新的路由 New Route
-  - [ ] 跟随 [v2 路由规范](https://docs.rsshub.app/joinus/script-standard.html) Follows [v2 Script Standard](https://docs.rsshub.app/en/joinus/script-standard.html)
+  - [ ] 跟随 [v2 路由规范](https://docs.rsshub.app/joinus/script-standard) Follows [v2 Script Standard](https://docs.rsshub.app/en/joinus/script-standard)
 - [ ] 文档说明 Documentation
   - [ ] 中文文档 CN
   - [ ] 英文文档 EN
@@ -36,7 +38,7 @@ If your changes are not related to route, please fill in `routes` with `NOROUTE`
   - [ ] 使用缓存 Use Cache
 - [ ] 反爬/频率限制 anti-bot or rate limit?
   - [ ] 如果有, 是否有对应的措施? If yes, do your code reflect this sign?
-- [ ] [日期和时间](https://docs.rsshub.app/joinus/pub-date.html) [date and time](https://docs.rsshub.app/en/joinus/pub-date.html)
+- [ ] [日期和时间](https://docs.rsshub.app/joinus/pub-date) [date and time](https://docs.rsshub.app/en/joinus/pub-date)
   - [ ] 可以解析 Parsed
   - [ ] 时区调整 Correct TimeZone
 - [ ] 添加了新的包 New package added
